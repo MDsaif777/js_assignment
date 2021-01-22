@@ -47,3 +47,17 @@ var totalRent=hotelCost(21);
 console.log(totalRent);
 
 /*      4th problem megaFriend       */
+function megaFriend(friends) {
+    var maxword =megaFriend;
+    var longest;
+    for (var i = 0; i < megaFriend.length; i++) {
+        var element = megaFriend[i];
+        if (element.length > megaFriend) {
+            longest = element;
+        }
+    }
+    return maxword;
+}
+var friends = ('helal', 'mia', 'bulu');
+var result = megaFriend(friends);
+console.log(result)
